@@ -1,1 +1,44 @@
-{}
+{
+  "CarouselSlider": {
+    "description": "Auto imported from components/CarouselSlider.vue"
+  },
+  "LazyCarouselSlider": {
+    "description": "Auto imported from components/CarouselSlider.vue"
+  },
+  "Category": {
+    "description": "Auto imported from components/Category.vue"
+  },
+  "LazyCategory": {
+    "description": "Auto imported from components/Category.vue"
+  },
+  "CelebrateCategoty": {
+    "description": "Auto imported from components/CelebrateCategoty.vue"
+  },
+  "LazyCelebrateCategoty": {
+    "description": "Auto imported from components/CelebrateCategoty.vue"
+  },
+  "DailyDeals": {
+    "description": "Auto imported from components/DailyDeals.vue"
+  },
+  "LazyDailyDeals": {
+    "description": "Auto imported from components/DailyDeals.vue"
+  },
+  "Footer": {
+    "description": "Auto imported from components/Footer.vue"
+  },
+  "LazyFooter": {
+    "description": "Auto imported from components/Footer.vue"
+  },
+  "Navigations": {
+    "description": "Auto imported from components/Navigations.vue"
+  },
+  "LazyNavigations": {
+    "description": "Auto imported from components/Navigations.vue"
+  },
+  "Static": {
+    "description": "Auto imported from components/Static.vue"
+  },
+  "LazyStatic": {
+    "description": "Auto imported from components/Static.vue"
+  }
+}
