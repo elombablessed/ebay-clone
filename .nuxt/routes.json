@@ -1,11 +1,5 @@
 [
   {
-    "name": "inspire",
-    "path": "/inspire",
-    "component": "/Users/elombablessed/Desktop/Peer coding/ebay-clone/pages/inspire.vue",
-    "chunkName": "pages/inspire"
-  },
-  {
     "name": "index",
     "path": "/",
     "component": "/Users/elombablessed/Desktop/Peer coding/ebay-clone/pages/index.vue",
