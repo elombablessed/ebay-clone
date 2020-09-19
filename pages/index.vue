@@ -1,14 +1,15 @@
 <template>
-  <div class="main">
+  <section class="main">
     <!--Navigation -->
     <Navigations />
     <!-- Carousel -->
+    <CarouselSlider />
     <!-- Categry [card comp] -->
     <!-- Daily Deals [Carousel ] -->
     <!-- Celebrate (Category) -->
     <!-- Static -->
     <!-- Footer -->
-  </div>
+  </section>
 </template>
 
 <script>

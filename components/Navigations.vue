@@ -71,6 +71,7 @@
         </div>
 
     </div>
+    <v-divider></v-divider>
 </div>
 </template>
 
@@ -140,6 +141,8 @@ span{
 }
 .shop span{
     display: grid;
+    padding: 0;
+    font-size: small;
     color: #555555;
 }
 input{
