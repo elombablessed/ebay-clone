@@ -27,8 +27,15 @@
     <v-divider></v-divider>
     <div class="nav-middle">
         <img src="https://pngimg.com/uploads/ebay/ebay_PNG22.png" alt="">
-        <v-icon>mdi-chevron-down</v-icon>
-        <p>Hey Middle</p>
+        <div class="shop">
+            <span>Shop by
+            <span >Category</span>
+            </span>
+            <v-icon>mdi-chevron-down</v-icon>
+        </div>
+        <div class="search_input">
+            <input type="text" placeholder="Search for anything">
+        </div>
     </div>
     <v-divider></v-divider>
     <div class="nav-bottom">
@@ -66,8 +73,40 @@
 .daily-deals{
     padding-left: 5px;
 }
+.nav-middle{
+    height: 80px;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+}
 .nav-middle > img{
-     height: 70px;
+     height: 130px;
     
+}
+.shop{
+    padding: 5px;
+    display: flex;
+    justify-items: center;
+}
+.shop span{
+    display: grid;
+}
+input{
+    border-radius: 2px;
+}
+.search_input{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-left: 10px;
+    border-color: black;
+}
+.search_input > input{
+    
+    outline-width: 0;
+    background-color: transparent;
+    border: 10px;
 }
 </style>
