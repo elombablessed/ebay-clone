@@ -34,7 +34,15 @@
             <v-icon>mdi-chevron-down</v-icon>
         </div>
         <div class="search_input">
+            <v-icon>mdi-magnify</v-icon>
             <input type="text" placeholder="Search for anything">
+            <v-spacer></v-spacer>
+            <div class="inner_search_input"> 
+                <span>All Categories</span>
+                <v-spacer></v-spacer>
+                <v-icon>mdi-chevron-down</v-icon>
+                </div>
+            
         </div>
             <div class="my-2">
              <button class="btn-clr">Search</button>
@@ -47,12 +55,12 @@
     </div>
 </div>
 </template>
-<style>
+<style scoped>
 .navigations{
     height: 25px;
     margin-top: 5px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 35px;
+    margin-right: 35px;
     display: flex;
     align-items: center;
     justify-content: space-between; 
@@ -79,15 +87,15 @@ span{
     padding-left: 5px;
 }
 .nav-middle{
-    height: 80px;
+    height: 73px;
     margin-top: 5px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 35px;
+    margin-right: 35px;
     display: flex;
     align-items: center;
 }
 .nav-middle > img{
-     height: 130px;
+     height: 128px;
     
 }
 .shop{
@@ -109,6 +117,19 @@ input{
     margin-left: 10px;
     border-style: solid;
     border-color: rgba(0, 0, 0, 0.726);
+    height: 45px;
+    border-width: 2px;
+}
+.inner_search_input{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-left: 10px;
+    border-style: solid;
+    border-right: none;
+    border-color: rgba(0, 0, 0, 0.726);
+    height: 45px;
+    border-width: 1px;
 }
 .search_input > input{
     
@@ -120,7 +141,7 @@ input{
     margin-left: 5px;
 }
 .btn-clr{
-    height:44px;
+    height:45px;
     width: 168px;
    background-color:#3665f3;
    color: white;
