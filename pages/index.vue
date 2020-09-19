@@ -1,6 +1,7 @@
 <template>
-  <div>
+  <div class="main">
     <!--Navigation -->
+    <Navigations />
     <!-- Carousel -->
     <!-- Categry [card comp] -->
     <!-- Daily Deals [Carousel ] -->
@@ -16,3 +17,8 @@ export default {
 
 }
 </script>
+<style>
+.main{
+  margin: 0;
+}
+</style>
