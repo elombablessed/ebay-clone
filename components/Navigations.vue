@@ -36,6 +36,10 @@
         <div class="search_input">
             <input type="text" placeholder="Search for anything">
         </div>
+            <div class="my-2">
+             <button class="btn-clr">Search</button>
+             <span>Advanced</span>
+            </div>
     </div>
     <v-divider></v-divider>
     <div class="nav-bottom">
@@ -53,10 +57,11 @@
     align-items: center;
     justify-content: space-between; 
 }
-.navigations span{
+span{
     padding: 5px;
     font-family: Helvetica, sans-serif;
     font-size: 12px;
+   justify-items: center;
 }
 .navigations a{
     text-decoration: none;
@@ -98,15 +103,26 @@ input{
 }
 .search_input{
     display: flex;
+    flex: 1;
     align-items: center;
     padding: 10px;
     margin-left: 10px;
-    border-color: black;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.726);
 }
 .search_input > input{
     
     outline-width: 0;
     background-color: transparent;
-    border: 10px;
+
+}
+.my-2{
+    margin-left: 5px;
+}
+.btn-clr{
+    height:44px;
+    width: 168px;
+   background-color:#3665f3;
+   color: white;
 }
 </style>
