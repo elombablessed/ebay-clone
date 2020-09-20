@@ -34,10 +34,10 @@
             <v-icon>mdi-chevron-down</v-icon>
         </div>
         <div class="search_input">
-            <div class="search_input_wrap">
+            
                 <v-icon >mdi-magnify</v-icon>
                 <input type="text" placeholder="Search for anything">
-            </div>
+    
                 
             <v-spacer></v-spacer>
             <div class="inner_search_input"> 
