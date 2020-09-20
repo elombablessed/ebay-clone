@@ -5,6 +5,7 @@
     <!-- Carousel -->
     <CarouselSlider />
     <!-- Categry [card comp] -->
+    <Category />
     <!-- Daily Deals [Carousel ] -->
     <!-- Celebrate (Category) -->
     <!-- Static -->
