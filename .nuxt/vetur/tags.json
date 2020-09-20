@@ -17,6 +17,12 @@
   "LazyCelebrateCategoty": {
     "description": "Auto imported from components/CelebrateCategoty.vue"
   },
+  "CsCard": {
+    "description": "Auto imported from components/CsCard.vue"
+  },
+  "LazyCsCard": {
+    "description": "Auto imported from components/CsCard.vue"
+  },
   "DailyDeals": {
     "description": "Auto imported from components/DailyDeals.vue"
   },
