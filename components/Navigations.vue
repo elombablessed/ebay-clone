@@ -34,11 +34,8 @@
             <v-icon>mdi-chevron-down</v-icon>
         </div>
         <div class="search_input">
-            
                 <v-icon >mdi-magnify</v-icon>
                 <input type="text" placeholder="Search for anything">
-    
-                
             <v-spacer></v-spacer>
             <div class="inner_search_input"> 
                 <span>All Categories</span>
@@ -179,7 +176,9 @@ input{
     outline-width: 0;
     background-color: transparent;
     font-family: Helvetica, sans-serif;
-
+}
+.search_input > input:focus::placeholder{
+    color: transparent;
 }
 .my-2{
     margin-left: 5px;
