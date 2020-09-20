@@ -1,26 +1,42 @@
 <template>
-  <v-card
-    class="mx-auto"
-    max-width="344"
-    outlined
-  >
-    <v-list-item three-line>
-      <v-list-item-content>
-        <div class="overline mb-4">OVERLINE</div>
-        <v-list-item-title class="headline mb-1">Headline 5</v-list-item-title>
-        <v-list-item-subtitle>Greyhound divisely hello coldly fonwderfully</v-list-item-subtitle>
-      </v-list-item-content>
-
-      <v-list-item-avatar
-        tile
-        size="80"
-        color="grey"
-      ></v-list-item-avatar>
-    </v-list-item>
-
-    <v-card-actions>
-      <v-btn text>Button</v-btn>
-      <v-btn text>Button</v-btn>
-    </v-card-actions>
-  </v-card>
+            <div class="card">
+                <div class="img-container">
+                    
+                </div>
+                
+                <div class="container">
+                    <h3>Apple</h3>
+                </div>
+            </div>
 </template>
+
+<style scoped>
+
+.card {
+margin-top: 20px;
+}
+.card .img-container {
+border-radius: 100%;
+  padding: 20px;
+  width: 148.25px;
+  height: 146.25px;
+  transition: 0.3s;
+  background-image: url("https://cdn.vuetifyjs.com/images/cards/store.jpg");
+}
+
+.card .img-container:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+justify-items: center;
+margin: auto;
+}
+h3 {
+justify-items: center;
+font-family: sans-serif;
+color: #242323;
+}
+
+</style>>

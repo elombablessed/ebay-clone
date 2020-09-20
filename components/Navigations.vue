@@ -8,11 +8,19 @@
         </div>
       
       <div class="nav-top-right">
-            <span>Ship to</span>
+            <span> <a href="">Ship to </a> </span>
             <span>Sell</span>
-            <span>Watchlist<v-icon>mdi-chevron-down</v-icon></span>
+            <span>Watchlist<v-icon >mdi-chevron-down</v-icon>
+            </span>
             
-            <span>My eBay<v-icon>mdi-chevron-down</v-icon></span>
+            <span>My eBay
+                    <v-btn
+                        icon
+                        @click="show = !show"
+                    >
+                        <v-icon>{{ show ? 'mdi-chevron-up' : 'mdi-chevron-down' }}</v-icon>
+                    </v-btn>
+            </span>
         
 
       <v-btn icon>
@@ -28,8 +36,8 @@
     <div class="nav-middle">
         <img src="https://pngimg.com/uploads/ebay/ebay_PNG22.png" alt="">
         <div class="shop">
-            <span>Shop by
-            <span >Category</span>
+            <span> <a href=""> Shop by </a> 
+            <span > <a href=""> Category </a> </span>
             </span>
             <v-icon>mdi-chevron-down</v-icon>
         </div>
@@ -46,7 +54,7 @@
         </div>
             <div class="my-2">
              <button class="btn-clr">Search</button>
-             <span>Advanced</span>
+             <span> <a href="">Advanced</a></span>
             </div>
     </div>
     <v-divider></v-divider>
@@ -54,7 +62,7 @@
         <div class="inner-nav-bottom">
             <ul>
                 <li > <apan class="home"><a href="">Home</a> </apan></li>
-                <li> <v-icon small>mdi-heart</v-icon> Saved</li>
+                <li> <a href=""><v-icon small>mdi-heart</v-icon> Saved</a> </li>
                 <li><a href="">Electronics</a> </li>
                 <li> <a href="">Fashion</a> </li>
                 <li> <a href="">Health & Beauty</a>  </li>
@@ -74,9 +82,9 @@
 
 <script>
 export default {
-    data:{
-        isHidden: false
-    }
+    data: () => ({
+      show: false,
+    }),
 }
 </script>
 

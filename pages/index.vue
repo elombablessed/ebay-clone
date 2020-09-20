@@ -1,5 +1,5 @@
 <template>
-  <section class="main">
+  <div class="main">
     <!--Navigation -->
     <Navigations />
     <!-- Carousel -->
@@ -9,7 +9,7 @@
     <!-- Celebrate (Category) -->
     <!-- Static -->
     <!-- Footer -->
-  </section>
+  </div>
 </template>
 
 <script>

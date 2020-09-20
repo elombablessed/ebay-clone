@@ -1,7 +1,8 @@
 <template>
-  <div>
-    <Nuxt />
-  </div>
+
+<div class="app_layout">
+  <Nuxt />
+</div>
 </template>
 
 <script>
@@ -9,6 +10,3 @@ export default {
 
 }
 </script>
-<style>
-
-</style>
