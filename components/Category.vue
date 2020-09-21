@@ -27,25 +27,25 @@
                 </div>
                  <div class="circular-item">
                     <v-avatar size="145px">
-                        <v-img src="https://randomuser.me/api/portraits/men/85.jpg"></v-img>
+                        <v-img src="https://i.ebayimg.com/thumbs/images/g/FBkAAOSwXt1fEe67/s-l225.webp"></v-img>
                     </v-avatar>
                     <h2>Ugreen</h2>
                 </div>
                  <div class="circular-item">
                     <v-avatar size="145px">
-                        <v-img src="https://randomuser.me/api/portraits/men/85.jpg"></v-img>
+                        <v-img src="https://i.ebayimg.com/thumbs/images/g/4bYAAOSweohfQ4vV/s-l225.webp"></v-img>
                     </v-avatar>
                     <h2>Xiaomi</h2>
                 </div>
                  <div class="circular-item">
                     <v-avatar size="145px">
-                        <v-img src="https://randomuser.me/api/portraits/men/85.jpg"></v-img>
+                        <v-img src="https://i.ebayimg.com/thumbs/images/g/ctwAAOSw73xeqa32/s-l225.webp"></v-img>
                     </v-avatar>
                     <h2>Nike</h2>
                 </div>
                  <div class="circular-item">
                     <v-avatar size="145px">
-                        <v-img src="https://randomuser.me/api/portraits/men/85.jpg"></v-img>
+                        <v-img src="https://i.ebayimg.com/thumbs/images/g/NjMAAOSwm8NbF8N0/s-l225.webp"></v-img>
                     </v-avatar>
                     <h2>Born Pretty</h2>
                 </div>
