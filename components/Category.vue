@@ -6,10 +6,66 @@
                 <a href=""><h2>See all</h2> 
                 <v-icon large >mdi-arrow-right</v-icon> </a> 
         </span>
+        <div class="category-container">
+                <div class="circular-item">
+                    <v-avatar size="145px">
+                        <v-img src="https://i.ebayimg.com/thumbs/images/g/7EQAAOSwBTleLDid/s-l225.webp"></v-img>
+                    </v-avatar>
+                    <h2>Apple</h2>
+                </div>
+                 <div class="circular-item">
+                    <v-avatar size="145px">
+                        <v-img src="https://i.ebayimg.com/thumbs/images/g/rM8AAOSwiJReQR08/s-l225.webp"></v-img>
+                    </v-avatar>
+                    <h2>Samsung</h2>
+                </div>
+                 <div class="circular-item">
+                    <v-avatar size="145px">
+                        <v-img src="https://i.ebayimg.com/thumbs/images/g/wQQAAOSwcwJfNtu5/s-l225.webp"></v-img>
+                    </v-avatar>
+                    <h2>Sony</h2>
+                </div>
+                 <div class="circular-item">
+                    <v-avatar size="145px">
+                        <v-img src="https://randomuser.me/api/portraits/men/85.jpg"></v-img>
+                    </v-avatar>
+                    <h2>Ugreen</h2>
+                </div>
+                 <div class="circular-item">
+                    <v-avatar size="145px">
+                        <v-img src="https://randomuser.me/api/portraits/men/85.jpg"></v-img>
+                    </v-avatar>
+                    <h2>Xiaomi</h2>
+                </div>
+                 <div class="circular-item">
+                    <v-avatar size="145px">
+                        <v-img src="https://randomuser.me/api/portraits/men/85.jpg"></v-img>
+                    </v-avatar>
+                    <h2>Nike</h2>
+                </div>
+                 <div class="circular-item">
+                    <v-avatar size="145px">
+                        <v-img src="https://randomuser.me/api/portraits/men/85.jpg"></v-img>
+                    </v-avatar>
+                    <h2>Born Pretty</h2>
+                </div>
+               
+        </div>
 
     </div>
 </template>
 <style scoped>
+.category-container{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-between;
+}
+.circular-item > h2{
+    margin-top: 10px;
+    margin-left: 40px;  
+}
 .category{
     margin-top: 45px;
     margin-left: 35px;
@@ -24,7 +80,7 @@
     margin-right: 3px;
     font-family: sans-serif;
     font-size: 20px;
-    color: #555555;
+    color: #2f2e2e;
 }
 
 span{
