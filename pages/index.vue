@@ -7,8 +7,11 @@
     <!-- Categry [card comp] -->
     <Category />
     <!-- Daily Deals [Carousel ] -->
+    <DailyDeals />
     <!-- Celebrate (Category) -->
+    <CelebrateCategoty />
     <!-- Static -->
+    <Static />
     <!-- Footer -->
   </div>
 </template>
